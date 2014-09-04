@@ -12,7 +12,7 @@ $config = [
 	'debug' => true,
 
 /**
- * Configure basic information about the application.
+ * Configure basic information about the application.!
  *
  * - namespace - The namespace to find app classes under.
  * - encoding - The encoding used for HTML + database connections.
@@ -207,9 +207,9 @@ $config = [
 			'driver' => 'Cake\Database\Driver\Mysql',
 			'persistent' => false,
 			'host' => 'localhost',
-			'login' => 'my_app',
-			'password' => 'secret',
-			'database' => 'my_app',
+			'login' => 'coedo_user',
+			'password' => 'pass123',
+			'database' => 'report_db',
 			'prefix' => false,
 			'encoding' => 'utf8',
 			'timezone' => 'UTC',
@@ -223,7 +223,7 @@ $config = [
 			* decreases performance because each query needs to be traversed and
 			* manipulated before being executed.
 			*/
-			'quoteIdentifiers' => false,
+			//'quoteIdentifiers' => true,
 
 			/*
 			* During development, if using MySQL < 5.6, uncommenting the
@@ -243,14 +243,14 @@ $config = [
 			'driver' => 'Cake\Database\Driver\Mysql',
 			'persistent' => false,
 			'host' => 'localhost',
-			'login' => 'my_app',
-			'password' => 'secret',
-			'database' => 'test_myapp',
+			'login' => 'coedo_user',
+			'password' => 'pass123',
+			'database' => 'test_report_db',
 			'prefix' => false,
 			'encoding' => 'utf8',
 			'timezone' => 'UTC',
 			'cacheMetadata' => true,
-			'quoteIdentifiers' => false,
+			'quoteIdentifiers' => true,
 			//'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
 		],
 	],
