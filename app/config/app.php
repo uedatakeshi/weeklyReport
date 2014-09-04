@@ -12,7 +12,7 @@ $config = [
 	'debug' => true,
 
 /**
- * Configure basic information about the application.!!!!
+ * Configure basic information about the application.!!
  *
  * - namespace - The namespace to find app classes under.
  * - encoding - The encoding used for HTML + database connections.
